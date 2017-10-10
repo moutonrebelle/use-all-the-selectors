@@ -40,5 +40,9 @@ strong + p.dfn {
 }
 
 li:first-child > ol {
-  color:#2aa198;
+  color:#719e47;
+}
+
+li:last-child > ol {
+  color:#2aa198
 }
