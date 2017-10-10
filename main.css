@@ -3,12 +3,11 @@ body {
   background-color: #fdf6e3;
 }
 
-header
-footer {
+header, footer {
   font-size: 1.5rem;
 }
 
-nav > ul {
+nav ul {
   font-family: sans-serif;
 }
 
@@ -18,4 +17,8 @@ h1.logo {
 
 main.wrapper {
   background-color: #eee8d5;
+}
+
+h2.contents, h2.favs, h2.facts, h2.types {
+  color: #93a1a1;
 }
