@@ -36,5 +36,9 @@ strong + p.dfn {
 }
 
 [link=external] {
-  background-color: #719e07;
+  background-color: #2694d8;
+}
+
+li:first-child > ol {
+  color:#2aa198;
 }
