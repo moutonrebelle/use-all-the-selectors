@@ -7,3 +7,15 @@ header
 footer {
   font-size: 1.5rem;
 }
+
+nav > ul {
+  font-family: sans-serif;
+}
+
+h1.logo {
+  text-transform: uppercase;
+}
+
+main.wrapper {
+  background-color: #eee8d5;
+}
