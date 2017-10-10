@@ -31,7 +31,7 @@ strong + p.dfn {
   color: #fff;
 }
 
-:not(a.no-highlight) {
+a:not(a.no-highlight) {
   background-color: #719e07;
 }
 
@@ -39,10 +39,20 @@ strong + p.dfn {
   background-color: #2694d8;
 }
 
-li:first-child > ol {
+ol > li:first-child {
   color:#719e47;
 }
 
-li:last-child > ol {
-  color:#2aa198
+ol > li:last-child {
+  color:#2aa198;
 }
+
+ul.types > li:nth-child(odd) {
+  background-color: :#657ba3;
+}
+
+ul.types > li:nth-child(even) {
+  background-color: :#586e75;
+}
+
+ul.types > li:nth-child(3)
