@@ -1,0 +1,40 @@
+/* ------------- =General -------------- */
+body {
+  background-color: #fdf6e3;
+}
+
+header, footer {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  font-family: sans-serif;
+}
+
+h1.logo {
+  text-transform: uppercase;
+}
+
+main.wrapper {
+  background-color: #eee8d5;
+}
+
+h2.contents, h2.favs, h2.facts, h2.types {
+  color: #93a1a1;
+}
+
+main.wrapper > p.dfn {
+  background-color: #b58900;
+}
+
+strong + p.dfn {
+  color: #fff;
+}
+
+:not(a.no-highlight) {
+  background-color: #719e07;
+}
+
+[link=external] {
+  background-color: #719e07;
+}
