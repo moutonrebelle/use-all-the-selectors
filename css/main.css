@@ -31,7 +31,7 @@ strong + p.dfn {
   color: #fff;
 }
 
-a:not(a.no-highlight) {
+a:not(.no-highlight) {
   background-color: #719e07;
 }
 
