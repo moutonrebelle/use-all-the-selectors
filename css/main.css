@@ -1,4 +1,5 @@
 /* ------------- =General -------------- */
+
 body {
   background-color: #fdf6e3;
 }
@@ -35,7 +36,7 @@ a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-[link=external] {
+[link="external"] {
   background-color: #2694d8;
 }
 
